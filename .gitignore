@@ -1,3 +1,6 @@
 teste*
 .DS_Store
+*.sqlite3
+*pyc
+__pycache__
 ./babynames/babynames.out
