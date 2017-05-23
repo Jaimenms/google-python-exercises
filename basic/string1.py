@@ -58,8 +58,7 @@ def both_ends(s):
 def fix_start(s):
     text_1 = s[0]
     text_2 = s.replace(text_1,'*')
-    output = text_1 + text_2[1:]
-    return  output
+    return  text_1 + text_2[1:]
 
 
 # D. MixUp
