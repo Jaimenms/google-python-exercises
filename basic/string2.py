@@ -47,15 +47,15 @@ def not_bad(s):
 # Given 2 strings, a and b, return a string of the form
 #  a-front + b-front + a-back + b-back
 def front_back(a, b):
-    (a_front , a_back) = split_auxiliar(a)
-    (b_front , b_back) = split_auxiliar(b)
-    output = a_front + b_front + a_back + b_back
+    a_front , a_back = split_auxiliar(a)
+    b_front , b_back = split_auxiliar(b)
+    output = ''.join([a_front, b_front, a_back, b_back])
     return output
 
 import math
 def split_auxiliar(c):
     corte = math.ceil(len(c)/2)
-    d = ( c[0:corte] ,c[corte:] )
+    d = ( c[:corte] ,c[corte:] )
     return d
 
 
