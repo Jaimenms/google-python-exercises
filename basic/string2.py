@@ -49,14 +49,12 @@ def not_bad(s):
 def front_back(a, b):
     a_front , a_back = split_auxiliar(a)
     b_front , b_back = split_auxiliar(b)
-    output = ''.join([a_front, b_front, a_back, b_back])
-    return output
+    return ''.join([a_front, b_front, a_back, b_back])
 
 import math
 def split_auxiliar(c):
     corte = math.ceil(len(c)/2)
-    d = ( c[:corte] ,c[corte:] )
-    return d
+    return ( c[:corte] ,c[corte:] )
 
 
 # Simple provided test() function used in main() to print
