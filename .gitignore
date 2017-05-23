@@ -4,3 +4,4 @@ teste*
 *pyc
 __pycache__
 ./babynames/babynames.out
+.idea*

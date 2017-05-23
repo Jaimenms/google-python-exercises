@@ -80,13 +80,6 @@ def print_mimic(mimic_dict, word):
         i += 1
     return texto
 
-def print_mimic_rec(texto, mimic_dict, word):
-
-
-
-
-    return texto
-
 
 # Provided main(), calls mimic_dict() and mimic()
 def main():
